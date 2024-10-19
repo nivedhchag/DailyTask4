@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Select Element by ID -->
+    <p id="p">HELLO WORLDS</p>
+    <!-- Select Elements by Class Name -->
+    <h1 class="hello">HEy There </h1>
+    <h2 class="hello" > VENOM</h2>
+    <h3 class="hello">THE</h3>
+    <h4 class="hello">LAST</h4>
+    <h5 class="hello">DANCE</h5>
+    <!-- Select Elements by Tag Name -->
+     <div>THOMAS SHELBY</div>
+     <div>THOMAS SHELBY</div>
+     <div>THOMAS SHELBY</div>
+     <div>THOMAS SHELBY</div>
+     <!-- Select Element by Query Selector -->
+      <div id="sp">DEVARA</div>
+    <!-- Select Elements by Query Selector All -->
+     <div class="spa">AVENGERS</div>
+     <div class="spa">AVENGERS</div>
+     <div class="spa">AVENGERS</div>
+     <div class="spa">AVENGERS</div>
+     <div class="spa">AVENGERS</div>
+
+     <!-- 
+      //6. Change Styles of Selected Elements -->
+     <iam class="black">IAM IRON MAN</iam>
+    <script>
+        //    <!-- Select Element by ID -->
+              sych=document.getElementById("p")
+              sych.style.backgroundColor="red"
+              sych.style.fontSize="200px"
+// /    <!-- Select Elements by Class Name -->
+              document.getElementsByClassName("hello")[1].style.color="green"
+              document.getElementsByClassName("hello")[0].style.color="pink";
+              document.getElementsByClassName("hello")[2].style.fontSize="200px";
+              
+//     <!-- Select Elements by Tag Name -->
+              document.getElementsByTagName("div")[0].style.border="1px solid red"
+              document.getElementsByTagName("div")[1].style.border="2px solid yellow"
+              document.getElementsByTagName("div")[2].style.border="3px solid pink"
+              document.getElementsByTagName("div")[3].style.border="4px solid blue"
+              document.getElementsByTagName("div")[4].style.border="5px solid green"
+             
+            //        <!-- Select Element by Query Selector -->
+
+              document.querySelector("#sp").style.fontStyle = "italic";
+
+
+//     <!-- Select Elements by Query Selector All -->
+
+              document.querySelectorAll(".spa")[0].style.marginTop="20px";
+              document.querySelectorAll(".spa")[1].style.margin="20px";
+              document.querySelectorAll(".spa")[2].style.marginTop="20px";
+              document.querySelectorAll(".spa")[3].style.margin="20px";
+    //       //6. Change Styles of Selected Elements -->
+              imao=document.querySelector(".black")
+              imao.style.backgroundColor="pink"
+              imao.style.color="blue"
+              imao.style.paddingLeft="20px"
+              imao.style.marginLeft="120px"
+    
+    </script>
+
+    
+     
+</body>
+</html>
